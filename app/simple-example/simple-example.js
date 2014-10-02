@@ -23,6 +23,9 @@ angular.module('videogularQuizExample.simpleExample', ['ngRoute'])
 			questions: {
 				theme: {
 					url: "simple-example/videogular-questions.css"
+				},
+				data:{
+					url: "simple-example/simple-test.js"
 				}
 			}
 		}
