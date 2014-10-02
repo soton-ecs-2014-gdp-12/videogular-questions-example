@@ -3,10 +3,10 @@ videogular div.my-layer {
 	display: block;
 	z-index: 50;
 	top: 10%;
-	left: 10%;
-	right: 10%;
+	left: 50%;
+	margin-left: -250px;
 	min-height: 20px;
-	width: 80%;
+	width: 500px;
 	background-color: white;
 	border: 2px solid;
 	border-radius: 25px;
