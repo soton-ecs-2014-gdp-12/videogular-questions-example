@@ -1,0 +1,20 @@
+{
+	"questions": [
+		{
+			"type": "single_choice",
+			"question": "What colour is the sea?",
+			"responses": ["Blue","Red","Yellow"]
+		}
+		{
+			"type": "multiple_choice",
+			"question": "Which of the following are animals?",
+			"responses": ["Balloon","Dog","Stapler","Cat","Dolphin"]
+		}
+		{
+			"type": "number_scale",
+			"question": "How many animals went into the ark at a time?",
+			"responses": [1,10]
+		}
+	]
+}
+
