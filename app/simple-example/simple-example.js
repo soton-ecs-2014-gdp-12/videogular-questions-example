@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('videogularQuizExample.simpleExample', ['ngRoute', 'ngSanitize'])
+angular.module('videogularQuizExample.simpleExample', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
 	$routeProvider.when('/simple-example', {
