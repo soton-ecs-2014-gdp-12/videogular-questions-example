@@ -18,6 +18,13 @@ angular.module('videogularQuizExample.simpleExample', ['ngRoute', 'ngSanitize'])
 		],
 		theme: {
 			url: "simple-example/videogular.css"
+		},
+		plugins: {
+			questions: {
+				theme: {
+					url: "simple-example/videogular-questions.css"
+				}
+			}
 		}
 	};
 });
