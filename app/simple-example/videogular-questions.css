@@ -2,8 +2,9 @@ videogular div.my-layer {
 	position: absolute;
 	display: block;
 	z-index: 50;
-	top: 50px;
+	top: 10%;
 	left: 10%;
+	right: 10%;
 	height: 80%;
 	width: 80%;
 	background-color: white;
