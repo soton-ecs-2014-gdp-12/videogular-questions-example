@@ -14,13 +14,13 @@
     "karma-junit-reporter": "^0.2.2"
   },
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower install;npm run-script download-video",
     "startdev" : "rm -rf app/bower_components/videogular-questions; ln -s ../../../videogular-questions app/bower_components/videogular-questions;http-server -a localhost -p 8000 -c-1",
 
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1",
 
-    "download": "wget -nc -O app/video.ogg http://mirror.bigbuckbunny.de/download.php\\?file\\=peach/bigbuckbunny_movies/big_buck_bunny_720p_stereo.ogg",
+    "download-video": "wget -nc -O app/video.ogg http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_stereo.ogg",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
