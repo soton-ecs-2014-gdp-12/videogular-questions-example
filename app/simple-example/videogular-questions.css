@@ -13,3 +13,19 @@ videogular div.my-layer {
 	padding: 20px;
 	padding-bottom: 50px;
 }
+
+#poll-header h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+#poll-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.chart {
+	width: 100%;
+	height: 200px;
+}
