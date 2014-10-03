@@ -1,0 +1,42 @@
+[
+	{
+		"time": 2,
+		"questions": [
+			{
+				"type":"single",
+				"question":"What color is the sky?",
+				"options": [
+					"blue",
+					"red",
+					"yellow",
+				]
+			}
+		],
+		"type": "poll",
+		"options": {
+			"showResults": true,
+			"allowSkip": false,
+			"submitURL": "http://example.com/submit-poll",
+			"resultsURL": "http://example.com/get-results",
+		}
+	},
+	{
+		"time": 2,
+		"questions": [
+			{
+				"type":"single",
+				"question":"What color is the sky?",
+				"options": [
+					"blue",
+					"red",
+					"yellow",
+				]
+			}
+		],
+		"type": "quiz",
+		"options": {
+			"showCorrectAnswer" : true,
+			"allowSkip": false
+		}
+	}
+]
