@@ -8,7 +8,7 @@
 				"options": [
 					"blue",
 					"red",
-					"yellow",
+					"yellow"
 				]
 			}
 		],
@@ -17,7 +17,7 @@
 			"showResults": true,
 			"allowSkip": false,
 			"submitURL": "http://example.com/submit-poll",
-			"resultsURL": "http://example.com/get-results",
+			"resultsURL": "http://example.com/get-results"
 		}
 	},
 	{
@@ -29,7 +29,7 @@
 				"options": [
 					"blue",
 					"red",
-					"yellow",
+					"yellow"
 				]
 			}
 		],
