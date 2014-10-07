@@ -15,7 +15,7 @@
   },
   "scripts": {
     "postinstall": "bower install;npm run-script download-video",
-    "startdev" : "rm -rf app/bower_components/videogular-questions; ln -s ../../../videogular-questions app/bower_components/videogular-questions;http-server -a localhost -p 8000 -c-1",
+    "startdev" : "scripts/startdev.sh",
 
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1",
