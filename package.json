@@ -20,7 +20,7 @@
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1",
 
-    "download-video": "wget -nc -O app/video.ogg http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_stereo.ogg",
+    "download-video": "wget -nc -O app/video.ogg http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_stereo.ogg; echo ''",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
