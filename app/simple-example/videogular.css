@@ -30,11 +30,20 @@ videogular {
 	-ms-user-select: none;
 	user-select: none;
 }
+h2 {
+	margin: 5px;
+}
 
 @media (max-width: 700px) {
-	h2 {
+	videogular {
+        max-height: 80vh;
+	}
+    h2 {
 		font-size: 5vw;
-		margin: 1vw;
+		margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
 	}
 }
 
@@ -44,12 +53,9 @@ videogular {
 		margin-left: -350px;
 		background-color: #000000;
 		display: block;
-	}
+    }
 }
 
-h2 {
-	margin: 5px;
-}
 
 videogular.fullscreen {
 	position: absolute;
