@@ -11,6 +11,8 @@ angular.module('videogularQuizExample.simpleExample', ['ngRoute'])
 
 .controller('SimpleExampleCtrl', function($scope, $sce) {
 	$scope.config = {
+		autoHide: false,
+		autoHideTime: 3000,
 		sources: [
 			{src: $sce.trustAsResourceUrl("video.ogg"), type: "video/ogg"}
 		],

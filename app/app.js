@@ -4,6 +4,7 @@
 angular.module('videogularQuizExample', [
   'ngRoute',
   'com.2fdevs.videogular',
+  'com.2fdevs.videogular.plugins.controls',
   'uk.ac.soton.ecs.videogular.plugins.questions',
   'videogularQuizExample.simpleExample',
   'videogularQuizExample.version'
