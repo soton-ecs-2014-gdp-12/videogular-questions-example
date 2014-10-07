@@ -8,3 +8,7 @@ tmp
 *.log
 
 app/video.ogg
+app/video.avi
+app/video.m4v
+app/video.mov
+app/video.mp4
