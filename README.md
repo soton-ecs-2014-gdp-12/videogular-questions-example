@@ -38,3 +38,9 @@ Running `npm run-script startdev` will start it in development mode which links 
 
 This will let you dev on the videoangular-questions without committing and tagging commits to get bower to install it.
 
+Test Video
+----------
+
+The test video that is used is not included in the repository. It should be downloaded when you install the packages.
+
+However if the test video has not been downloaded it can be downloaded with `npm run-script video-download`
