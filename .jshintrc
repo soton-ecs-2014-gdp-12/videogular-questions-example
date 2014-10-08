@@ -1,13 +1,21 @@
 {
-  "globalstrict": true,
-  "globals": {
-    "angular": false,
-    "describe": false,
-    "it": false,
-    "expect": false,
-    "beforeEach": false,
-    "afterEach": false,
-    "module": false,
-    "inject": false
-  }
+	"globalstrict": true,
+
+	"bitwise": true,
+	"camelcase": true,
+	"eqeqeq": true,
+	"immed": true,
+	"newcap": true,
+	"undef": true,
+
+	"globals": {
+		"angular": false,
+		"describe": false,
+		"it": false,
+		"expect": false,
+		"beforeEach": false,
+		"afterEach": false,
+		"module": false,
+		"inject": false
+	}
 }
