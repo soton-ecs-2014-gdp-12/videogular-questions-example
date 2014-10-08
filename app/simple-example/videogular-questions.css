@@ -27,25 +27,22 @@ videogular div.my-layer {
 	padding-bottom: 50px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 700px), (max-height: 440px) {
 	videogular div.my-layer {
 		top: 5%;
-		left: 5vw;
+		left: 50%;
+        margin-left: -20vw;
+        font-size: 3vmin;
 	}
 	#poll-header h1 {
-		font-size: 5vw;
+		font-size: 5vmin;
 	}
-	#poll-content {
-		font-size: 3vw;
-	}
-
 	.chart {
-		height: 40vh;
+		height: 40vmin;
 	}
-
 }
 
-@media (min-width: 700px) {
+@media (min-width: 700px) and (min-height: 440px) {
 	videogular div.my-layer {
 		top: 10%;
 		left: 50%;
