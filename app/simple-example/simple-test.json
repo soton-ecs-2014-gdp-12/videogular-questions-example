@@ -10,6 +10,14 @@
 					"red",
 					"yellow"
 				]
+			},
+			{
+				"type":"single",
+				"question":"Does this code work?",
+				"options": [
+					"yes",
+					"no"
+				]
 			}
 		],
 		"type": "poll",
@@ -21,15 +29,15 @@
 		}
 	},
 	{
-		"time": 2,
+		"time": 5,
 		"questions": [
 			{
 				"type":"single",
-				"question":"What color is the sky?",
+				"question":"What is the moon made of?",
 				"options": [
-					"blue",
-					"red",
-					"yellow"
+					"cheese",
+					"cheeese",
+					"cheeeese"
 				]
 			}
 		],
