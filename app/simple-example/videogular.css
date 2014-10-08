@@ -35,7 +35,7 @@ h2 {
 
 @media (max-width: 700px) {
 	videogular {
-	    height: 85vh;
+	    height: 80vh;
     }
     h2 {
 		font-size: 5vw;
@@ -48,7 +48,7 @@ h2 {
 
 @media (max-height: 440px) {
 	videogular {
-	    height: 85vh;
+	    height: 80vh;
     }
     h2 {
 		font-size: 5vw;
@@ -66,6 +66,13 @@ h2 {
 		margin-left: -350px;
 		background-color: #000000;
 		display: block;
+    }
+}
+
+@media (min-width: 600px) {
+    h2 {
+        font-size: 1.5em;
+        margin: 5px;
     }
 }
 
