@@ -20,6 +20,12 @@
 				],
 				"max":2,
 				"min":0
+			},
+			{
+				"type":"stars",
+				"question":"What rating would you give this code?",
+				"max":5,
+				"min":5
 			}
 		],
 		"type": "poll",
