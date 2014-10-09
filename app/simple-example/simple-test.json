@@ -12,12 +12,14 @@
 				]
 			},
 			{
-				"type":"single",
+				"type":"multiple",
 				"question":"Does this code work?",
 				"options": [
 					"yes",
 					"no"
-				]
+				],
+				"max":2,
+				"min":0
 			}
 		],
 		"type": "poll",
