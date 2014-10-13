@@ -47,5 +47,6 @@ videogular div.my-layer {
 		top: 10%;
 		left: 50%;
 		margin-left: -270px;
-	}
+		width: 540px;
+    }
 }
