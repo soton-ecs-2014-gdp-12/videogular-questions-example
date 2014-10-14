@@ -38,6 +38,20 @@ videogular div.my-layer {
 	}
 }
 
+
+@media (orientation:portrait) and (max-width: 700px) {
+	videogular div.my-layer {
+		top: 5%;
+		left: 50%;
+		width: 85vw;
+		margin-left: -47.5vw;
+		font-size: 3vmin;
+		border-radius: 5vw;
+		padding: 5vw;
+		padding-bottom: 50px;
+	}
+}
+
 @media (max-height: 440px) or (max-width: 700px) {
 	#poll-header h1 {
 		font-size: 5vmin;
