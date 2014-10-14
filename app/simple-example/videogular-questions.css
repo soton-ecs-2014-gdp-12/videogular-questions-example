@@ -22,18 +22,23 @@ videogular div.my-layer {
 	max-width: 500px;
 	background-color: white;
 	border: 2px solid;
-	border-radius: 25px;
-	padding: 20px;
-	padding-bottom: 50px;
 }
 
-@media (max-width: 700px), (max-height: 440px) {
+
+@media (orientation:landscape) and (max-height: 440px) {
 	videogular div.my-layer {
 		top: 5%;
 		left: 50%;
-        margin-left: -20vw;
-        font-size: 3vmin;
+		width: calc(77.5vh * 1.6);
+		margin-left: calc(85vh * -0.8);
+		font-size: 3vmin;
+		border-radius: 10vh;
+		padding: 5vh;
+		padding-bottom: 50px;
 	}
+}
+
+@media (max-height: 440px) or (max-width: 700px) {
 	#poll-header h1 {
 		font-size: 5vmin;
 	}
@@ -42,11 +47,15 @@ videogular div.my-layer {
 	}
 }
 
+
 @media (min-width: 700px) and (min-height: 440px) {
 	videogular div.my-layer {
 		top: 10%;
 		left: 50%;
 		margin-left: -270px;
 		width: 540px;
+		border-radius: 25px;
+		padding: 20px;
+		padding-bottom: 50px;
     }
 }
