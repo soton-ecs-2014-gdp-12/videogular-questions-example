@@ -14,6 +14,7 @@
     "videogular": "~0.6.0",
     "videogular-questions": "~0.1.0",
     "angular-charts": "~0.2.6",
-    "videogular-controls": "~0.6.0"
+    "videogular-controls": "~0.6.0",
+    "videogular-themes-default": "~0.6.0"
   }
 }
