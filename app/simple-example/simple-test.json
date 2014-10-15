@@ -19,7 +19,8 @@
 					"no"
 				],
 				"max":2,
-				"min":0
+				"min":0,
+				"allowSkip": true
 			},
 			{
 				"type":"stars",
@@ -52,7 +53,7 @@
 		"type": "quiz",
 		"options": {
 			"showCorrectAnswer" : true,
-			"allowSkip": false
+			"allowSkip": true
 		}
 	}
 ]
