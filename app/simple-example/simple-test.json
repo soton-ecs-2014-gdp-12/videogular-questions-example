@@ -29,13 +29,10 @@
 				"min":5
 			}
 		],
-		"type": "poll",
-		"options": {
-			"showResults": true,
-			"allowSkip": false,
-			"submitURL": "http://example.com/submit-poll",
-			"resultsURL": "http://example.com/get-results"
-		}
+		"showResults": true,
+		"allowSkip": false,
+		"submitURL": "http://example.com/submit-poll",
+		"resultsURL": "http://example.com/get-results"
 	},
 	{
 		"time": 5,
@@ -50,10 +47,7 @@
 				]
 			}
 		],
-		"type": "quiz",
-		"options": {
-			"showCorrectAnswer" : true,
-			"allowSkip": true
-		}
+		"showCorrectAnswer" : true,
+		"allowSkip": true
 	}
 ]
