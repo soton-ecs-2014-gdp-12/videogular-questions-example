@@ -6,17 +6,27 @@
 				"type":"single",
 				"question":"What color is the sky?",
 				"options": [
-					"blue",
-					"red",
-					"yellow"
+					{
+						"name":"red"
+					},
+					{
+						"name":"blue"
+					},
+					{
+						"name":"yellow"
+					}
 				]
 			},
 			{
 				"type":"multiple",
 				"question":"Does this code work?",
 				"options": [
-					"yes",
-					"no"
+					{
+						"name":"yes"
+					},
+					{
+						"name":"no"
+					}
 				],
 				"max":2,
 				"min":0,
@@ -41,9 +51,15 @@
 				"type":"single",
 				"question":"What is the moon made of?",
 				"options": [
-					"cheese",
-					"cheeese",
-					"cheeeese"
+					{
+						"name":"cheese"
+					},
+					{
+						"name":"cheeese"
+					},
+					{
+						"name":"cheeeeeese"
+					}
 				]
 			}
 		],
