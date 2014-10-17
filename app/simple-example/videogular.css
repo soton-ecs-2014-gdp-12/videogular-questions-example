@@ -15,7 +15,7 @@
 }
 
 videogular {
-	max-height: 394px; //this assumed aspect ration firefox gave me
+	max-height: 394px; /*this assumed aspect ration firefox gave me*/
     width: 100%;
 	display:block;
 	position: relative;
