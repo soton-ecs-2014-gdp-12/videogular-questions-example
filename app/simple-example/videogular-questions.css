@@ -33,7 +33,7 @@ videogular div.my-layer {
 	videogular div.my-layer {
 		top: 5%;
 		left: 50%;
-		width: calc(77.5vh * 1.6);
+		width: calc(85vh * 1.6);
 		margin-left: calc(85vh * -0.8);
 		font-size: 3vmin;
 		border-radius: 10vh;
@@ -47,7 +47,7 @@ videogular div.my-layer {
 	videogular div.my-layer {
 		top: 5%;
 		left: 50%;
-		width: 85vw;
+		width: 95vw;
 		margin-left: -47.5vw;
 		font-size: 3vmin;
 		border-radius: 5vw;
