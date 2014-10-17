@@ -1,9 +1,10 @@
-#poll-header h1 {
+#question-header h1 {
 	text-align: center;
 	margin-top: 0;
+	font-size: 24px;
 }
 
-#poll-content {
+#question-content {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
@@ -53,7 +54,7 @@ videogular div.my-layer {
 }
 
 @media (max-height: 440px) or (max-width: 700px) {
-	#poll-header h1 {
+	#question-header {
 		font-size: 5vmin;
 	}
 	.chart {
