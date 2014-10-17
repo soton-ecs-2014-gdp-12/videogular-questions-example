@@ -60,6 +60,10 @@ videogular div.my-layer {
 	#question-header h1, #question-result-header h1 {
 		font-size: 5vmin;
 	}
+	div.my-layer button {
+		font-size: 3vmin;
+		padding: 1vmin;
+	}
 	.chart {
 		height: 40vmin;
 	}
