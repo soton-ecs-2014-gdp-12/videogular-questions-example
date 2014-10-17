@@ -53,8 +53,8 @@ videogular div.my-layer {
 	}
 }
 
-@media (max-height: 440px) or (max-width: 700px) {
-	#question-header {
+@media (max-height: 440px), (max-width: 700px) {
+	#question-header h1 {
 		font-size: 5vmin;
 	}
 	.chart {
