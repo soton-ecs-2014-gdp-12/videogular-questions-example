@@ -6,6 +6,7 @@ tmp
 .DS_Store
 .idea
 *.log
+*.swp
 
 app/video.ogg
 app/video.avi
