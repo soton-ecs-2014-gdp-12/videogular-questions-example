@@ -3,7 +3,7 @@ importScripts("/app/bower_components/videogular-questions/questions-worker.js");
 
 loadAnnotations({
 	"first-question": {
-		time: 8,
+		time: 4,
 		questions: [
 			{
 				id: "first-question",
@@ -36,9 +36,9 @@ loadAnnotations({
 						name: "No"
 					}
 				],
-				condition: function(questions) {
+				condition: function(questions, result) {
 					// show if the answer to the previous question is not "cheese"
-					return questions[0].answer !== "cheese";
+					return result !== "cheese";
 				}
 			}
 		]
