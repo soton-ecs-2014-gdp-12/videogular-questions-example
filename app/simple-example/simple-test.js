@@ -27,15 +27,17 @@ loadAnnotations({
 				question: "Answer incorrect, do you want to review the video",
 				options: [
 					{
-						name: "Yes",
-						action: function(video) {
-							video.setTime(0);
-						}
+						name: "Yes"
 					},
 					{
 						name: "No"
 					}
 				],
+				action: function(result, video) {
+					if (result === "Yes") {
+						video.setTime(0);
+					}
+				},
 				condition: function(questions, result) {
 					// show if the answer to the previous question is not "cheese"
 					return result !== "cheese";
