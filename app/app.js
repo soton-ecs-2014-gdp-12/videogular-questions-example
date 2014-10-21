@@ -7,6 +7,7 @@ angular.module('videogularQuizExample', [
   'com.2fdevs.videogular.plugins.controls',
   'uk.ac.soton.ecs.videogular.plugins.questions',
   'videogularQuizExample.simpleExample',
+  'videogularQuizExample.caesarExample',
   'videogularQuizExample.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
