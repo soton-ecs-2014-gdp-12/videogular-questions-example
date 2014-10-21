@@ -1,5 +1,5 @@
 
-importScripts("/app/bower_components/videogular-questions/questions-worker.js");
+importScripts("../../app/bower_components/videogular-questions/questions-worker.js");
 
 loadAnnotations({
 	"first-question": {
