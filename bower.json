@@ -1,8 +1,7 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "videogular-questions-example",
+  "description": "Example project for Videogular Questions",
+  "version": "0.2.0",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -12,7 +11,7 @@
     "angular-mocks": "~1.2.x",
     "html5-boilerplate": "~4.3.0",
     "videogular": "~0.6.1",
-    "videogular-questions": "~0.1.0",
+    "videogular-questions": "~0.2.0",
     "angular-charts": "~0.2.6",
     "videogular-controls": "~0.6.1",
     "videogular-themes-default": "~0.6.1",
