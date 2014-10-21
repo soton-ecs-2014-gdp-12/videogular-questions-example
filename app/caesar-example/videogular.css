@@ -38,6 +38,10 @@ h2 {
 	videogular {
 	    height: 80vh;
     }
+    videogular vg-video {
+        height: 100%;
+        max-height: 100%;
+    }
     h2 {
 		font-size: 5vw;
 		margin-left: 0.5vw;
@@ -86,6 +90,12 @@ videogular video {
 	max-height: 100%;
 }
 
+@media (max-width: 700px), (max-height: 440px) {
+    videogular vg-video {
+        height: 100%;
+        max-height: 100%;
+    }
+}
 videogular .iconButton {
 	color: #FFFFFF;
 	font-family: 'icomoon';
