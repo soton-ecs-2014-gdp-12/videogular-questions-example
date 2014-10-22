@@ -27,7 +27,17 @@ angular.module('videogularQuizExample.caesarExample', ['ngRoute'])
 				data:{
 					url: "caesar-example/caesar-test.js",
 				}
-			}
+			},
+			cuepoints: {
+				theme: {
+					url: "bower_components/videogular-cuepoints/cuepoints.css",
+				},
+				points: [
+					// In the future, these will be position at the question times
+					{ time:  18 },
+					{ time: 100 },
+				],
+			},
 		}
 	};
 });
