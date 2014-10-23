@@ -34,6 +34,9 @@ h2 {
 	margin: 5px;
 }
 
+
+/* Start of custom css to style the video in the center and nicely */
+
 @media (max-width: 700px), (max-height: 440px) {
 	videogular {
 	    height: 80vh;
@@ -96,6 +99,10 @@ videogular video {
         max-height: 100%;
     }
 }
+
+
+/* End of custom css to style the video in the center and nicely */
+
 videogular .iconButton {
 	color: #FFFFFF;
 	font-family: 'icomoon';
