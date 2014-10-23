@@ -30,6 +30,9 @@ By default the server is started on [http://localhost:8000](http://localhost:800
 The automated testing can be run with `npm test`.
 This requires Google chrome with the default settings.
 
+For `npm start` to work you need to be on a stable version of the repo.
+The latest stable version is v0.2.0 and can be checked out with git checkout v0.2.0
+
 Development Run
 ---------------
 
