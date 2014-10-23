@@ -17,7 +17,7 @@ angular.module('videogularQuizExample.caesarExample', ['ngRoute'])
 			{src: $sce.trustAsResourceUrl("caesar-cipher.mp4"), type: "video/mp4"},
 		],
 		theme: {
-			url: "caesar-example/videogular.css"
+			url: "videogular.css"
 		},
 		plugins: {
 			questions: {

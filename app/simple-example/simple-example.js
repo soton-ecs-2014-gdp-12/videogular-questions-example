@@ -21,7 +21,7 @@ angular.module('videogularQuizExample.simpleExample', ['ngRoute'])
 			{src: $sce.trustAsResourceUrl("video.m4v"), type: "video/m4v"}
 		],
 		theme: {
-			url: "simple-example/videogular.css"
+			url: "videogular.css"
 		},
 		plugins: {
 			questions: {
