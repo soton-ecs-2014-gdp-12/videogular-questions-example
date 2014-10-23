@@ -26,7 +26,7 @@ angular.module('videogularQuizExample.simpleExample', ['ngRoute'])
 		plugins: {
 			questions: {
 				theme: {
-					url: "simple-example/videogular-questions.css"
+					url: "simple-example/simple-example.css"
 				},
 				data:{
 					url: "simple-example/simple-test.js",

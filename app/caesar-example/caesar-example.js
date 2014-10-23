@@ -22,7 +22,7 @@ angular.module('videogularQuizExample.caesarExample', ['ngRoute'])
 		plugins: {
 			questions: {
 				theme: {
-					url: "caesar-example/videogular-questions.css"
+					url: "caesar-example/caesar-example.css"
 				},
 				data:{
 					url: "caesar-example/caesar-test.js",
