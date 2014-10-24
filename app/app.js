@@ -10,6 +10,7 @@ angular.module('videogularQuizExample', [
   'videogularQuizExample.simpleExample',
   'videogularQuizExample.caesarExample',
 	'videogularQuizExample.questionSingle',
+	'videogularQuizExample.questionMultiple',
   'videogularQuizExample.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
