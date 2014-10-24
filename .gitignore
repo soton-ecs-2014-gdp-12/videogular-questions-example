@@ -7,6 +7,7 @@ tmp
 .idea
 *.log
 *.swp
+*.bak
 
 app/video.ogg
 app/video.avi
