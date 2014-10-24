@@ -9,6 +9,7 @@ angular.module('videogularQuizExample', [
   'uk.ac.soton.ecs.videogular.plugins.cuepoints',
   'videogularQuizExample.simpleExample',
   'videogularQuizExample.caesarExample',
+	'videogularQuizExample.questionSingle',
   'videogularQuizExample.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
