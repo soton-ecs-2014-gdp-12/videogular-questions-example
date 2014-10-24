@@ -1,5 +1,10 @@
 /* app css stylesheet */
 
+#navbar {
+	border-bottom: 1px solid #000000;
+	margin-bottom: 5px;
+}
+
 .menu {
 	list-style: none;
 	border-bottom: 0.1em solid black;
@@ -38,6 +43,7 @@ h1 {
 #question-header h1, #question-result-header h1 {
 	text-align: center;
 	margin-top: 0;
+	font-size: 18px;
 }
 
 #question-content, #question-result-content {
