@@ -19,29 +19,9 @@ loadAnnotations({
 					{
 						name: "incorrect"
 					}
-				]
-			},
-			{
-				id: "check-question",
-				type: "single",
-				question: "Answer incorrect, do you want to review the video",
-				options: [
-					{
-						name: "Yes"
-					},
-					{
-						name: "No"
-					}
 				],
-				action: function(result, video) {
-					if (result === "Yes") {
-						video.setTime(0);
-					}
-				},
-				condition: function(questions, result) {
-					// show if the answer to the previous question is not "correct"
-					return result !== "correct";
-				}
+				min: 1,
+				max: 2
 			}
 		]
 	}

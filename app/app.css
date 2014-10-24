@@ -5,6 +5,23 @@
 	margin-bottom: 5px;
 }
 
+/* questions css details */
+#stars_list {
+	 text-align: center;
+}
+
+#stars_list button {
+	color: #FFF;
+	background-color: #98995f;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#button_group {
+	text-align: center;
+}
+
+
 .menu {
 	list-style: none;
 	border-bottom: 0.1em solid black;
@@ -76,7 +93,7 @@ videogular div.my-layer {
 		font-size: 3vmin;
 		border-radius: 10vh;
 		padding: 5vh;
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 	}
 }
 
@@ -90,7 +107,7 @@ videogular div.my-layer {
 		font-size: 3vmin;
 		border-radius: 5vw;
 		padding: 5vw;
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 	}
 }
 
@@ -103,7 +120,7 @@ videogular div.my-layer {
 		font-size: 3vmin;
 		border-radius: 5vw;
 		padding: 5vw;
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 	}
 }
 
@@ -130,7 +147,7 @@ videogular div.my-layer {
 		width: 540px;
 		border-radius: 25px;
 		padding: 20px;
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 		max-width: 500px;
 	}
 }
