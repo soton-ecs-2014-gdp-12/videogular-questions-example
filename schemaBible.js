@@ -9,6 +9,7 @@ loadAnnotations({
 				id: "first-question",
 				type: "single",
 				question: "Question",
+				skipable: true,
 				options: [
 					{
 						name: "Answer 1"
@@ -24,7 +25,7 @@ loadAnnotations({
 				}
 			},
 			{
-				id: "check-question",
+				id: "check-first-question",
 				type: "single",
 				question: "Answer incorrect, do you want to review the video",
 				options: [
@@ -38,7 +39,8 @@ loadAnnotations({
 				//runs when a question is answered prior to the 'find next question cycle
 				action: function(result, video) {
 					if (result === "Yes") {
-						video.setTime(0);
+						//video is one of many objects you may want to interact with (unsure what exactly the others are yet)
+						video.setTime(2);
 					}
 				},
 				//runs during the 'find next question' cycle
@@ -50,14 +52,14 @@ loadAnnotations({
 				}
 			},
 			{
-				id: "first-question",
+				id: "second-question",
 				type: "stars",
 				question: "Stars question example, rate this between 2 and 5 (1 is invalid)",
 				min: 2,
 				max: 5,
 				recordResult: true,
 				showCondition: function(questions) {
-					questions.get("first-question").passed();
+					questions.get("first-question").passed() || questions.get("first-question").wasSkipped();
 				},
 				passed: function(result){
 					return true;
