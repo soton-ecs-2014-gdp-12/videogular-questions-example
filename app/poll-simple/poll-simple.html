@@ -1,0 +1,17 @@
+<videogular vg-theme="config.theme.url">
+	<vg-video vg-src="config.sources"></vg-video>
+	<vg-questions vg-questions-theme="config.plugins.questions.theme.url" vg-questions-data="config.plugins.questions.data.url"></vg-questions>
+	<vg-controls vg-autohide="config.autoHide" vg-autohide-time="config.autoHideTime">
+		<vg-play-pause-button></vg-play-pause-button>
+		<vg-scrubBar>
+			<vg-scrubBarCurrentTime></vg-scrubBarCurrentTime>
+			<vg-cuepoints vg-cuepoints-config="config.plugins.cuepoints" vg-cuepoints-theme="config.plugins.cuepoints.theme.url"></vg-cuepoints>
+		</vg-scrubBar>
+		<vg-timedisplay aria-label="Time left">{{ timeLeft | date:'mm:ss' }}</vg-timedisplay>
+		<vg-volume>
+			<vg-mutebutton></vg-mutebutton>
+			<vg-volumebar></vg-volumebar>
+		</vg-volume>
+		<vg-fullscreenButton></vg-fullscreenButton>
+	</vg-controls>
+</videogular>
