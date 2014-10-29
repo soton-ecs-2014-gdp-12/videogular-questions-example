@@ -18,11 +18,7 @@ loadAnnotations({
 						name: "Answer 2"
 					}
 				],
-				//defines if the question is counted as passed
-				//will only be called by other questions during their showQuestion cycle
-				passed: function(result){
-					return result === "Answer 1";
-				}
+				answer: "Answer 1"
 			},
 			{
 				id: "check-first-question",
@@ -43,12 +39,8 @@ loadAnnotations({
 						video.setTime(2);
 					}
 				},
-				//runs during the 'find next question' cycle
 				showCondition: function(questions) {
-					!questions.get("first-question").passed();
-				},
-				passed: function(result){
-					return true;
+					return questions["first-question"].isNotCorrect();
 				}
 			},
 			{
@@ -59,10 +51,7 @@ loadAnnotations({
 				max: 5,
 				recordResult: true,
 				showCondition: function(questions) {
-					questions.get("first-question").passed() || questions.get("first-question").wasSkipped();
-				},
-				passed: function(result){
-					return true;
+					return questions["first-question"].isCorrect() || questions["first-question"].wasSkipped();
 				}
 			}
 		]
