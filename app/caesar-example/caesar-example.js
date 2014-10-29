@@ -32,11 +32,6 @@ angular.module('videogularQuizExample.caesarExample', ['ngRoute'])
 				theme: {
 					url: "bower_components/videogular-cuepoints/cuepoints.css",
 				},
-				points: [
-					// In the future, these will be position at the question times
-					{ time:  18 },
-					{ time: 100 },
-				],
 			},
 		}
 	};
