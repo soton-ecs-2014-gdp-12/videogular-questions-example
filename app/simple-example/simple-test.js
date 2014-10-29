@@ -3,7 +3,7 @@ importScripts("../../app/bower_components/videogular-questions/questions-worker.
 
 loadAnnotations({
 	"first-question": {
-		time: 4,
+		time: 1,
 		questions: [
 			{
 				id: "first-question",
@@ -19,7 +19,8 @@ loadAnnotations({
 					{
 						name: "cheeeeeese"
 					}
-				]
+				],
+				correctAnswer: "cheese"
 			},
 			{
 				id: "check-question",
@@ -33,14 +34,13 @@ loadAnnotations({
 						name: "No"
 					}
 				],
-				action: function(result, video) {
-					if (result === "Yes") {
+				action: function(questions, video) {
+					if (questions.get("check-question").response === "Yes") {
 						video.setTime(0);
 					}
 				},
-				condition: function(questions, result) {
-					// show if the answer to the previous question is not "cheese"
-					return result !== "cheese";
+				condition: function(questions) {
+					return questions.get("first-question").isNotCorrect();
 				}
 			}
 		]

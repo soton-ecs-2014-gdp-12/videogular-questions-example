@@ -19,7 +19,8 @@ loadAnnotations({
 					{
 						name: "Polyalphabetic Cipher"
 					}
-				]
+				],
+				correctAnswer: "Substitution Cipher"
 			},
 			{
 				id: "check-name",
@@ -33,14 +34,13 @@ loadAnnotations({
 						name: "No"
 					}
 				],
-				action: function(result, video) {
-					if (result === "Yes") {
+				action: function(questions, video) {
+					if (questions.get("check-name").response === "Yes") {
 						video.setTime(4);
 					}
 				},
 				condition: function(questions, result) {
-					// show if the answer to the previous question is not "cheese"
-					return result !== "Substitution Cipher";
+					return questions.get("name").isNotCorrect();
 				}
 			}
 		]
@@ -62,7 +62,8 @@ loadAnnotations({
 					{
 						name: "800 years"
 					}
-				]
+				],
+				correctAnswer: "800 years"
 			},
 			{
 				id: "check-time",
@@ -76,14 +77,13 @@ loadAnnotations({
 						name: "No"
 					}
 				],
-				action: function(result, video) {
-					if (result === "Yes") {
+				action: function(questions, video) {
+					if (questions.get("check-time").response === "Yes") {
 						video.setTime(90);
 					}
 				},
 				condition: function(questions, result) {
-					// show if the answer to the previous question is not "cheese"
-					return result !== "800 years";
+					return questions.get("time").isNotCorrect();
 				}
 			}
 		]

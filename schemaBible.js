@@ -33,9 +33,8 @@ loadAnnotations({
 					}
 				],
 				//runs when a question is answered prior to the 'find next question cycle
-				action: function(result, video) {
-					if (result === "Yes") {
-						//video is one of many objects you may want to interact with (unsure what exactly the others are yet)
+				action: function(questions, video) {
+					if (questions["check-first-question"].response === "Yes") {
 						video.setTime(2);
 					}
 				},
