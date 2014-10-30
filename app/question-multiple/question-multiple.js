@@ -29,7 +29,7 @@ angular.module('videogularQuizExample.questionMultiple', ['ngRoute'])
 					url: "question-multiple/question-multiple.css"
 				},
 				data:{
-					url: "question-multiple/simple-test.js"
+					url: "question-multiple/question-multiple_questions.js"
 				}
 			}
 		}

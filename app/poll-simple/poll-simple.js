@@ -29,7 +29,7 @@ angular.module('videogularQuizExample.pollSimple', ['ngRoute'])
 					url: "poll-simple/poll-simple.css"
 				},
 				data:{
-					url: "poll-simple/poll-test.js"
+					url: "poll-simple/poll-simple_questions.js"
 				},
 				pollServer:{
 					url: "http://127.0.0.1:5000/vote"

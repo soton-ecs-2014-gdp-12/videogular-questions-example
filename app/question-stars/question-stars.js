@@ -29,7 +29,7 @@ angular.module('videogularQuizExample.questionStars', ['ngRoute'])
 					url: "question-stars/question-stars.css"
 				},
 				data:{
-					url: "question-stars/simple-test.js"
+					url: "question-stars/question-stars_questions.js"
 				}
 			}
 		}

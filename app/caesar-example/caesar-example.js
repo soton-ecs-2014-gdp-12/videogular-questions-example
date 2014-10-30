@@ -25,7 +25,7 @@ angular.module('videogularQuizExample.caesarExample', ['ngRoute'])
 					url: "caesar-example/caesar-example.css"
 				},
 				data:{
-					url: "caesar-example/caesar-test.js",
+					url: "caesar-example/caesar-example_questions.js",
 				}
 			},
 			cuepoints: {
