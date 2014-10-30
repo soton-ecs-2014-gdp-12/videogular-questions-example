@@ -6,7 +6,7 @@ loadAnnotations({
 		time: 1,
 		questions: [
 			{
-				id: "first-question",
+				id: "first",
 				type: "single",
 				question: "Single question example. Correct is the correct answer",
 				options: [
@@ -16,10 +16,11 @@ loadAnnotations({
 					{
 						name: "incorrect"
 					}
-				]
+				],
+				correctAnswer: "correct"
 			},
 			{
-				id: "check-question",
+				id: "check-first",
 				type: "single",
 				question: "Answer incorrect, do you want to review the video",
 				options: [
@@ -31,13 +32,12 @@ loadAnnotations({
 					}
 				],
 				action: function(result, video) {
-					if (result === "Yes") {
+					if (questions.get("check-first").response === "Yes") {
 						video.setTime(0);
 					}
 				},
 				condition: function(questions, result) {
-					// show if the answer to the previous question is not "correct"
-					return result !== "correct";
+					return questions.get("name").isNotCorrect();
 				}
 			}
 		]
