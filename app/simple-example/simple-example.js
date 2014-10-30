@@ -31,6 +31,9 @@ angular.module('videogularQuizExample.simpleExample', ['ngRoute'])
 				data:{
 					url: "simple-example/simple-example_questions.js",
 				}
+			},
+			analytics: {
+				url: "http://example.com"
 			}
 		}
 	};
