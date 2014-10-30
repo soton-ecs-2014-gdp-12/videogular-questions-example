@@ -11,7 +11,8 @@ loadAnnotations({
 				question: "Text question example",
 				options: [
 					{name: "none"}
-				]
+				],
+				correctAnswer: "correct"
 			}
 		]
 	}

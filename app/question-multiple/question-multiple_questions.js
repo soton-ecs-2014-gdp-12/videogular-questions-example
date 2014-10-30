@@ -21,7 +21,8 @@ loadAnnotations({
 					}
 				],
 				min: 1,
-				max: 2
+				max: 2,
+				correctAnswer: ["correct", "correct2"]
 			}
 		]
 	}
