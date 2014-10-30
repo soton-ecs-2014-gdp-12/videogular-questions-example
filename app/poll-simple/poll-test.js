@@ -9,7 +9,7 @@ loadAnnotations({
 				id: "first-poll",
 				type: "single",
 				question: "What is the best cheese?",
-				recordsResult: true,
+				recordsResponse: true,
 				options: [
 					{
 						name: "Cheddar"

@@ -30,6 +30,9 @@ angular.module('videogularQuizExample.pollSimple', ['ngRoute'])
 				},
 				data:{
 					url: "poll-simple/poll-test.js"
+				},
+				pollServer:{
+					url: "http://127.0.0.1:5000/vote"
 				}
 			}
 		}
