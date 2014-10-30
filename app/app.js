@@ -7,6 +7,7 @@ angular.module('videogularQuizExample', [
   'com.2fdevs.videogular.plugins.controls',
   'uk.ac.soton.ecs.videogular.plugins.questions',
   'uk.ac.soton.ecs.videogular.plugins.cuepoints',
+  'uk.ac.soton.ecs.videogular.plugins.analytics',
   'videogularQuizExample.simpleExample',
   'videogularQuizExample.caesarExample',
 	'videogularQuizExample.questionSingle',

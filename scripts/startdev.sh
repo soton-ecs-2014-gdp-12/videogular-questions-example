@@ -4,7 +4,9 @@ ln -s ../../../videogular-questions app/bower_components/videogular-questions
 rm -rf app/bower_components/videogular-cuepoints
 ln -s ../../../videogular-cuepoints app/bower_components/videogular-cuepoints
 
-#Commented out since we might want to use this later
+rm -rf app/bower_components/videogular-analytics
+ln -s ../../../videogular-analytics app/bower_components/videogular-analytics
+
 #rm -rf app/bower_components/videogular-controls
 #ln -s ../../../bower-videogular-controls app/bower_components/videogular-controls
 

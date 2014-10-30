@@ -31,6 +31,11 @@ angular.module('videogularQuizExample.simpleExample', ['ngRoute'])
 				data:{
 					url: "simple-example/simple-example_questions.js",
 				}
+			},
+			analytics: {
+				servers: [
+					"http://localhost:5001/"
+				]
 			}
 		}
 	};
