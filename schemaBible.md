@@ -1,4 +1,4 @@
-
+```js
 importScripts("questions-worker.js");
 
 loadAnnotations({
@@ -56,10 +56,13 @@ loadAnnotations({
 		]
 	}
 });
+```
 
 result schema:
 Is defined by the question, dependant upon type
-	-single is a string based on the name
-	-multiple of an array of name strings
-	-who knows what the matching pairs question returns
+
+* single is a string based on the name
+* multiple of an array of name strings
+* who knows what the matching pairs question returns
+
 It is whatever is put into the results part of the WebWorker 
