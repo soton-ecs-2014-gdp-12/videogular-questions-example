@@ -1,5 +1,8 @@
+/* jshint worker: true */
+'use strict';
 
 importScripts("../../app/bower_components/videogular-questions/questions-worker.js");
+	/* global loadAnnotations */
 
 loadAnnotations({
 	"first-question": {
@@ -18,6 +21,11 @@ loadAnnotations({
 						name: "Something foreign"
 					}
 				]
+			},
+			{
+				id: "results-shiz",
+				questionId : "first-poll",
+			
 			}
 		]
 	}
