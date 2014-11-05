@@ -4,7 +4,7 @@ importScripts("questions-worker.js");
 loadAnnotations({
 	"first-Annotation": {
 		time: 4,
-		questions: [
+		items: [
 			{
 				id: "first-question",
 				type: "single",
