@@ -7,7 +7,7 @@ importScripts("../../app/bower_components/videogular-questions/questions-worker.
 loadAnnotations({
 	"first-question": {
 		time: 1,
-		questions: [
+		items: [
 			{
 				id: "first-question",
 				type: "text",

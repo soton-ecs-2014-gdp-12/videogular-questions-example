@@ -7,7 +7,7 @@ importScripts("../../app/bower_components/videogular-questions/questions-worker.
 loadAnnotations({
 	"first-question": {
 		time: 1,
-		questions: [
+		items: [
 			{
 				id: "first",
 				type: "single",
@@ -40,7 +40,7 @@ loadAnnotations({
 					}
 				},
 				condition: function(questions, result) {
-					return questions.get("name").isNotCorrect();
+					return questions.get("first").isNotCorrect();
 				}
 			}
 		]

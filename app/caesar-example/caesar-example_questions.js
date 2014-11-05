@@ -7,7 +7,7 @@ importScripts("../../app/bower_components/videogular-questions/questions-worker.
 loadAnnotations({
 	"first-question": {
 		time: 18,
-		questions: [
+		items: [
 			{
 				id: "name",
 				type: "single",
@@ -50,7 +50,7 @@ loadAnnotations({
 	},
 	"second-question": {
 		time: 100,
-		questions: [
+		items: [
 			{
 				id: "time",
 				type: "single",
