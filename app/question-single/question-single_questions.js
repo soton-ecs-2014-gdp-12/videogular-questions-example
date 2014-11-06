@@ -34,7 +34,7 @@ loadAnnotations({
 						name: "No"
 					}
 				],
-				action: function(result, video) {
+				action: function(questions, video) {
 					if (questions.get("check-first").response === "Yes") {
 						video.setTime(0);
 					}
