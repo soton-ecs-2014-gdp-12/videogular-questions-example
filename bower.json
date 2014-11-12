@@ -18,6 +18,7 @@
     "jjv": "latest",
     "bootstrap": "~3.2.0",
     "jquery": "~2.1.1",
-    "videogular-cuepoints": "~1.0.0"
+    "videogular-cuepoints": "~1.0.0",
+    "videogular-analytics": "~0.1.0"
   }
 }
