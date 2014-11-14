@@ -36,6 +36,11 @@ angular.module('videogularQuizExample.caesarExample', ['ngRoute'])
 					url: "bower_components/videogular-cuepoints/cuepoints.css",
 				},
 			},
+			analytics: {
+				servers: [
+					"http://localhost:5001/"
+				]
+			}
 		}
 	};
 });
