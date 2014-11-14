@@ -26,6 +26,9 @@ angular.module('videogularQuizExample.caesarExample', ['ngRoute'])
 				},
 				data:{
 					url: "caesar-example/caesar-example_questions.js",
+				},
+				pollServer:{
+					url: "http://127.0.0.1:5000/"
 				}
 			},
 			cuepoints: {

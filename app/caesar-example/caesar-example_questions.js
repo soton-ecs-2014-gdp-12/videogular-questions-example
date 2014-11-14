@@ -49,11 +49,12 @@ loadAnnotations({
 		]
 	},
 	"second-question": {
-		time: 100,
+		time: 50, // was 100
 		items: [
 			{
 				id: "time",
 				type: "single",
+				recordsResponse: true,
 				question: "How long did the Caesar Cipher remain unbroken...",
 				options: [
 					{
@@ -69,25 +70,8 @@ loadAnnotations({
 				correctAnswer: "800 years"
 			},
 			{
-				id: "check-time",
-				type: "single",
-				question: "Answer incorrect, do you want to review the video",
-				options: [
-					{
-						name: "Yes"
-					},
-					{
-						name: "No"
-					}
-				],
-				action: function(questions, video) {
-					if (questions.get("check-time").response === "Yes") {
-						video.setTime(90);
-					}
-				},
-				condition: function(questions, result) {
-					return questions.get("time").isNotCorrect();
-				}
+				id: "second-question-results",
+				questionId : "time",
 			}
 		]
 	}
