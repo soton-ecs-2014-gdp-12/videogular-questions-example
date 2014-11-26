@@ -12,9 +12,6 @@ loadAnnotations({
 				id: "first-question",
 				type: "text",
 				question: "Text question example",
-				options: [
-					{name: "none"}
-				],
 				correctAnswer: "correct"
 			}
 		]
