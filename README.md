@@ -20,18 +20,6 @@ Setup
 
 `npm install` can be run to install the npm dependencies.
 
-The [Videogular Analytics](https://github.com/soton-ecs-2014-gdp-12/videogular-analytics)
-and [Videogular Questions](https://github.com/soton-ecs-2014-gdp-12/videogular-questions)
-modules specified in the `bower.json` file have not been released yet. To get
-them, clone their repositories and run `bower link` in the root of each
-repository. Then, in the `videogular-questions-example` directory, tell Bower
-to use your local copies:
-
-```sh
-$ bower link videogular-questions
-$ bower link videogular-analytics
-```
-
 Running
 -------
 
