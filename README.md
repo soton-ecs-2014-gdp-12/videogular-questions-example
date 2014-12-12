@@ -42,3 +42,12 @@ downloaded when you install the packages.
 
 However if the test video has not been downloaded it can be downloaded with
 `npm run-script video-download`
+
+Configuring an Apache webserver to run this application
+=======================================================
+
+AngularJS files are JavaScript and therefore can be run on a normal Apache webserver.
+
+To install this you must clone the repository to a location served by apache and then install the dependencies by running `npm install`
+
+Once this has been performed the application will be able to be used.
