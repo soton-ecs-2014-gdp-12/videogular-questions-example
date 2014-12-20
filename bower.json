@@ -3,6 +3,13 @@
   "description": "Example project for Videogular Questions",
   "version": "0.2.0",
   "license": "MIT",
+  "authors": [
+    "Christopher Baines <cb15g11@soton.ac.uk>",
+    "Christopher Hewett <chewett@hotmail.co.uk>",
+    "Harry Cutts <eternal.linux@gmail.com>",
+    "Maria Lynch <ml26g11@soton.ac.uk>",
+    "Samuel Bennett <sb21g11@soton.ac.uk>"
+  ],
   "private": true,
   "dependencies": {
     "angular": "1.2.x",
