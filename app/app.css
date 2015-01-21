@@ -1,5 +1,9 @@
 /* app css stylesheet */
 
+#pagetitle {
+	font-size: 24px;
+}
+
 #navbar a, #exbar a, .sr-only {
 	color: #00579A; 
 }
