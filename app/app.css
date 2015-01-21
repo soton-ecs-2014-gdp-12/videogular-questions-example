@@ -1,6 +1,6 @@
 /* app css stylesheet */
 
-#navbar a, #exbar a {
+#navbar a, #exbar a, .sr-only {
 	color: #00579A; 
 }
 
