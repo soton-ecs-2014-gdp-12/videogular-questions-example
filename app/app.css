@@ -1,5 +1,9 @@
 /* app css stylesheet */
 
+#navbar a, #exbar a {
+	color: #00579A; 
+}
+
 #navbar {
 	border-bottom: 1px solid #000000;
 	margin-bottom: 5px;
